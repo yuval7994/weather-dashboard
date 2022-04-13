@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Dashboard</title>
-    <link rel=stylesheet href="assets/style.css">
+    <link href="assets/style.css" rel="stylesheet">
 </head>
 <body>
     <header class="title">
@@ -16,8 +16,8 @@
     <div>
     <div class="search">
         <h2 class="search">Search for a City</h2>
-        <input placeholder="San Diego"/>
-        <button class="searchbtn">Search</button> 
+        <input placeholder="San Diego" id="searchInput"/>
+        <button class="searchbtn" id="searchbtn">Search</button> 
     </div>   
     <div class="citybtns">
         <button class="city">Austin</button>
@@ -32,8 +32,8 @@
 </div>
 
     <div>
-        <div>
-            <h3>City Name and Date</h3>
+        <div class="cityoverview">
+            <h3 id="overview-title">City Name and Date</h3>
             <p>Temp</p>
             <p>Wind</p>
             <p>Humidity</p>
@@ -41,18 +41,50 @@
         </div>
         <div>
             <h4>5-Day Forecast</h4>
-            <div>
-                <div>
+            <div class="forecast">
+                
+                  <div class="col">
+                      <h5>Date</h5>
+                      <icon>""</icon>
+                      <h5>Temp</h5>
+                      <h5>Wind</h5>
+                      <h5>Humidity</h5>
+                  </div>
+                    
+                  <div class="col">
                     <h5>Date</h5>
-                    <icon>Image</icon>
-                    <p>Temp</p>
-                    <p>Wind</p>
-                    <p>Humidity</p>
+                    <icon>""</icon>
+                    <h5>Temp</h5>
+                    <h5>Wind</h5>
+                    <h5>Humidity</h5>
                 </div>
-            </div>
+
+                <div class="col"> 
+                    <h5>Date</h5>
+                    <icon>""</icon>
+                    <h5>Temp</h5>
+                    <h5>Wind</h5>
+                    <h5>Humidity</h5>
+              </div>
+
+                <div class="col">
+                    <h5>Date</h5>
+                    <icon>""</icon>
+                    <h5>Temp</h5>
+                    <h5>Wind</h5>
+                    <h5>Humidity</h5>
+              </div>
+
+                  <div class="col">  
+                    <h5>Date</h5>
+                    <icon>""</icon>
+                    <h5>Temp</h5>
+                    <h5>Wind</h5>
+                    <h5>Humidity</h5>
+              </div>
         </div>
     </div>
 </section>
-    
+<script src="js/script.js"> </script>
 </body>
 </html>

@@ -1,14 +1,30 @@
 .layout {
+    display: flex; 
+    gap: 30px; 
+    padding: 0 10px; 
+    
+    }
+    
+.citybtns {
+    display: flex; 
+    flex-direction: column;
+    gap: 10px; 
+    margin-top: 20px;
+    
+    }
+
+.forecast {
 display: flex; 
-gap: 30px; 
-padding: 0 10px; 
+flex-direction: row;
+gap: 20px;  
+}
+
+.col {
+background-color: gray;
+width: 55px; 
 
 }
 
-.citybtns {
-display: flex; 
-flex-direction: column;
-gap: 10px; 
-margin-top: 20px;
-
+.cityoverview {
+border: 1px solid black; 
 }
