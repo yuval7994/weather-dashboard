@@ -21,8 +21,9 @@ gap: 20px;
 
 .col {
 background-color: gray;
-width: 55px; 
-
+width: 150px; 
+height: 250px;
+padding: 10px;
 }
 
 .cityoverview {
