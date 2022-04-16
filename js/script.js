@@ -6,7 +6,7 @@ async function getWeatherInfo(longitude, latitude) {
 }
 
 async function getCityLocation(city) {
-    const apiGeoURL = `http://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=722979637d7f44411802fb9c1783e210`
+    const apiGeoURL = `https://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=722979637d7f44411802fb9c1783e210`
     const response = await fetch(apiGeoURL).then(response => response.json())
     const cityData = response[0] 
     const result = { longitude: cityData.lon, latitude: cityData.lat, name: cityData.name, state: cityData.state, country: cityData.country }
