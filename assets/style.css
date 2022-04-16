@@ -1,3 +1,7 @@
+body {
+font-family: 'Arial, Helvetica, sans-serif';
+
+}
 .layout {
     display: flex; 
     gap: 30px; 
@@ -28,4 +32,30 @@ padding: 10px;
 
 .cityoverview {
 border: 1px solid black; 
+
+}
+
+.title {
+background-color: lightblue;
+padding: 10px;
+margin-bottom: 10px;
+
+
+}
+.text {
+text-align: center;
+
+}
+
+.search {
+font-size: 25px; 
+}
+
+.search {
+display: inline-block; 
+font-family: 'Arial, Helvetica, sans-serif';
+border-radius: 20px;
+padding: 10px;
+background-color: white;
+border-radius: 12px;
 }
